@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: poppins;
+    background: #b50d0d !important;
+  }
+  .wordcounter{
+    background: rgb(22, 70, 0);
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    height: 300px;
+    color: white;
+    border-radius:10px;
+background: linear-gradient(145deg, #c20e0e, #a30c0c);
+box-shadow:  7px 7px 14px #9a0b0b,
+             -7px -7px 14px #d00f0f;
+  }
+  .wordcounter h2 {
+      font-weight: bold;
+      color: rgb(221, 217, 217);
+        
+  }
+  .wordcounter {
+      font-size: 20px;
+      font-family: poppins;
+  }
+  .wordcounter .count {
+      font-weight: bold;
+      margin-left: 10px;
+      color: yellow;
+  }
+  textarea{
+      padding: 10px;
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    resize: none;
+    height: 150px;
+    border-radius: 5px;
+    border-radius: 5px;
+    background: #b50d0d;
+    box-shadow: inset -1px 3px 14px #9a0b0b, inset -7px -4px 14px #d00f0f;
+    color: white;
+    font-family: poppins;
+  }
